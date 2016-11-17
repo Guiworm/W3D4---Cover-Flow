@@ -13,6 +13,8 @@
 		A0A5308D1DDE063C00DB737C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A5308B1DDE063C00DB737C /* Main.storyboard */; };
 		A0A5308F1DDE063C00DB737C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A5308E1DDE063C00DB737C /* Assets.xcassets */; };
 		A0A530921DDE063C00DB737C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A530901DDE063C00DB737C /* LaunchScreen.storyboard */; };
+		A0A5309B1DDE077D00DB737C /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A5309A1DDE077D00DB737C /* MyCollectionViewController.m */; };
+		A0A530A11DDE0AF300DB737C /* CoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A530A01DDE0AF300DB737C /* CoverFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A0A5308E1DDE063C00DB737C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0A530911DDE063C00DB737C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0A530931DDE063C00DB737C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A530991DDE077D00DB737C /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		A0A5309A1DDE077D00DB737C /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		A0A5309F1DDE0AF300DB737C /* CoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowLayout.h; sourceTree = "<group>"; };
+		A0A530A01DDE0AF300DB737C /* CoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,15 @@
 		A0A530811DDE063C00DB737C /* W3D4---Cover Flow */ = {
 			isa = PBXGroup;
 			children = (
+				A0A5308B1DDE063C00DB737C /* Main.storyboard */,
 				A0A530851DDE063C00DB737C /* AppDelegate.h */,
 				A0A530861DDE063C00DB737C /* AppDelegate.m */,
 				A0A530881DDE063C00DB737C /* ViewController.h */,
 				A0A530891DDE063C00DB737C /* ViewController.m */,
-				A0A5308B1DDE063C00DB737C /* Main.storyboard */,
+				A0A530991DDE077D00DB737C /* MyCollectionViewController.h */,
+				A0A5309A1DDE077D00DB737C /* MyCollectionViewController.m */,
+				A0A5309F1DDE0AF300DB737C /* CoverFlowLayout.h */,
+				A0A530A01DDE0AF300DB737C /* CoverFlowLayout.m */,
 				A0A5308E1DDE063C00DB737C /* Assets.xcassets */,
 				A0A530901DDE063C00DB737C /* LaunchScreen.storyboard */,
 				A0A530931DDE063C00DB737C /* Info.plist */,
@@ -150,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A5309B1DDE077D00DB737C /* MyCollectionViewController.m in Sources */,
+				A0A530A11DDE0AF300DB737C /* CoverFlowLayout.m in Sources */,
 				A0A5308A1DDE063C00DB737C /* ViewController.m in Sources */,
 				A0A530871DDE063C00DB737C /* AppDelegate.m in Sources */,
 				A0A530841DDE063C00DB737C /* main.m in Sources */,
